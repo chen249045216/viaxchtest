@@ -6,8 +6,8 @@ import AnimakitExpander from 'animakit-expander';
 import Form from "react-jsonschema-form";
 import {Grid, Row, Column} from 'react-cellblock';
 
-var url = "http://10.50.1.2:8080";
-var ws_url = "ws://10.50.1.2:8090";
+var url = "http://ec2-54-255-215-192.ap-southeast-1.compute.amazonaws.com:18080";
+var ws_url = "ws://ec2-54-255-215-192.ap-southeast-1.compute.amazonaws.com:18090";
 var call_id = 0;
 var sock = null;
 
